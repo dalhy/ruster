@@ -9,8 +9,8 @@ fn main() {
 
     for nome in nomes.iter() {
         println!("{}", 
-            nome.
-            chars().rev()
+            nome.l
+            .chars().rev()
             .collect::<String>()
             .to_ascii_uppercase()
         );
